@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="accountingPane" prefHeight="710.0" prefWidth="990.0" style="-fx-background-color: #d7f1fc;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeController">
+   <children>
+      <Pane layoutX="173.0" layoutY="30.0" prefHeight="670.0" prefWidth="795.0">
+         <children>
+            <Text fx:id="empPageHeader" fill="#537481" layoutX="32.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMPLOYEE">
+               <font>
+                  <Font name="Helvetica" size="28.0" />
+               </font>
+            </Text>
+            <Line endX="514.8941040039062" layoutX="251.0" layoutY="325.0" startX="-212.83335876464844" stroke="#537481" strokeLineCap="ROUND" strokeWidth="0.5" />
+            <Line endX="615.56298828125" layoutX="153.0" layoutY="40.0" startX="-119.00643920898438" startY="7.62939453125E-6" stroke="#537481" strokeLineCap="ROUND" />
+            <Text fx:id="empTitleAndDepartment" fill="#537481" layoutX="33.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title &amp; Department">
+               <font>
+                  <Font name="Helvetica" size="15.0" />
+               </font>
+            </Text>
+            <Pane layoutX="7.0" layoutY="90.0" prefHeight="258.0" prefWidth="771.0">
+               <children>
+                  <TableView fx:id="tableSoftware" layoutX="25.0" layoutY="28.0" onMouseClicked="#getSelectedSW" prefHeight="182.0" prefWidth="741.0" style="-fx-background-color: #e8f8ff;">
+                     <columns>
+                        <TableColumn fx:id="columnSWID" prefWidth="73.38973999023438" style="-fx-background-color: #8aacb5;" text="SW ID" />
+                        <TableColumn fx:id="columnName" prefWidth="105.61029052734375" style="-fx-background-color: #99bfc9;" text="Name" />
+                        <TableColumn fx:id="columnLicenseKey" prefWidth="146.9346923828125" style="-fx-background-color: #8aacb5;" text="License Key" />
+                        <TableColumn fx:id="columnExpiration" prefWidth="93.56527709960938" style="-fx-background-color: #99bfc9;" text="Expiration" />
+                        <TableColumn fx:id="columnVersionNo" prefWidth="103.1103515625" style="-fx-background-color: #8aacb5;" text="Version No." />
+                        <TableColumn fx:id="columnDescription" prefWidth="219.88970947265625" style="-fx-background-color: #99bfc9;" text="Description" />
+                     </columns>
+                  </TableView>
+                  <Text fill="#537481" layoutX="27.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SOFTWARE">
+                     <font>
+                        <Font name="Helvetica" size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="19.0" layoutY="324.0" prefHeight="244.0" prefWidth="759.0">
+               <children>
+                  <Text fill="#537481" layoutX="18.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HARDWARE">
+                     <font>
+                        <Font name="Helvetica" size="21.0" />
+                     </font>
+                  </Text>
+                  <TableView fx:id="tableHardware" layoutX="17.0" layoutY="36.0" onMouseClicked="#getSelectedHW" prefHeight="177.0" prefWidth="738.0" style="-fx-background-color: #e8f8ff;">
+                    <columns>
+                        <TableColumn fx:id="columnHWID" prefWidth="73.88973999023438" style="-fx-background-color: #8aacb5;" text="HW ID" />
+                        <TableColumn fx:id="columnType" prefWidth="99.6102294921875" style="-fx-background-color: #99bfc9;" text="Type" />
+                      <TableColumn fx:id="columnBrand" prefWidth="113.68206787109375" style="-fx-background-color: #8aacb5;" text="Brand" />
+                      <TableColumn fx:id="columnModel" prefWidth="148.37689208984375" style="-fx-background-color: #99bfc9;" text="Model" />
+                        <TableColumn fx:id="columnSerialNo" prefWidth="192.5513916015625" style="-fx-background-color: #8aacb5;" text="Serial No." />
+                        <TableColumn fx:id="columnDatePurchased" prefWidth="111.37054443359375" style="-fx-background-color: #99bfc9;" text="Date Purchased" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+            <Button fx:id="btnReturnToDept" layoutX="633.0" layoutY="1.0" mnemonicParsing="false" onAction="#returnToDeptClicked" style="-fx-background-color: #99bfc9;" text="Return to Department" textFill="#3e5b66" />
+            <Button fx:id="btnEditEmployee" layoutX="631.0" layoutY="599.0" mnemonicParsing="false" onAction="#editEmployeeClicked" style="-fx-background-color: #99bfc9;" text="Add to Employee Data" textFill="#3e5b66" />
+            <Pane fx:id="removePane" layoutX="35.0" layoutY="560.0" prefHeight="102.0" prefWidth="508.0">
+               <children>
+                  <Text fx:id="empTitleAndDepartment1" fill="#537481" layoutX="41.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you want to remove this?">
+                     <font>
+                        <Font name="Helvetica" size="15.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="btnYesRemove" layoutX="271.0" layoutY="38.0" mnemonicParsing="false" onAction="#yesRemoveClicked" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #99bfc9;" text="Yes" textFill="#3e5b66" />
+                  <Button fx:id="btnNoRemove" layoutX="393.0" layoutY="39.0" mnemonicParsing="false" onAction="#noRemoveClicked" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #99bfc9;" text="No" textFill="#3e5b66" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <VBox prefHeight="622.0" prefWidth="170.0" style="-fx-background-color: #99bfc9 #99bfc9;">
+         <children>
+            <Pane prefHeight="101.0" prefWidth="158.0">
+               <children>
+                  <ImageView fitHeight="47.0" fitWidth="73.0" layoutX="48.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="gemlogo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="btnAccounting" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #8aacb5; -fx-background-radius: 0;" text="Accounting" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnFundAccounting" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Fund Accounting" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMartketing" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Marketing" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLegal" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Legal" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnInformationTechnology" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Information Technology" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="btnMasterList" layoutY="648.0" mnemonicParsing="false" onAction="#openMasterList" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Resource Master List" textFill="#3e5b66">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnGenerateReport" layoutY="602.0" mnemonicParsing="false" onAction="#generateReport" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Generate Report" textFill="#3e5b66">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

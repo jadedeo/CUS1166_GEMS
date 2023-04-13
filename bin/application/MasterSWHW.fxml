@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="SWHWMasterPane" prefHeight="710.0" prefWidth="990.0" style="-fx-background-color: #d7f1fc;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MasterSWHWController">
+   <children>
+      <Pane layoutX="190.0" layoutY="26.0" prefHeight="668.0" prefWidth="772.0">
+         <children>
+            <Text fx:id="SWHWMasterPageHeader" fill="#537481" layoutX="13.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESOURCE MASTER LIST">
+               <font>
+                  <Font name="Helvetica" size="28.0" />
+               </font>
+            </Text>
+            <Line endX="616.3826904296875" layoutX="132.0" layoutY="34.0" startX="-119.00643920898438" startY="7.62939453125E-6" stroke="#537481" strokeLineCap="ROUND" />
+            <Pane layoutX="6.0" layoutY="87.0" prefHeight="285.0" prefWidth="757.0">
+               <children>
+                  <TableView fx:id="tableSoftwareMaster" layoutX="6.0" layoutY="30.0" prefHeight="178.0" prefWidth="741.0" style="-fx-background-color: #e8f8ff;">
+                     <columns>
+                        <TableColumn fx:id="columnSWIDMaster" prefWidth="73.38973999023438" style="-fx-background-color: #8aacb5;" text="SW ID" />
+                        <TableColumn fx:id="columnNameMaster" prefWidth="105.61029052734375" style="-fx-background-color: #99bfc9;" text="Name" />
+                        <TableColumn fx:id="columnLicenseKeyMaster" prefWidth="146.9346923828125" style="-fx-background-color: #8aacb5;" text="License Key" />
+                        <TableColumn fx:id="columnExpirationMaster" prefWidth="93.56527709960938" style="-fx-background-color: #99bfc9;" text="Expiration" />
+                        <TableColumn fx:id="columnVersionNoMaster" prefWidth="103.1103515625" style="-fx-background-color: #8aacb5;" text="Version No." />
+                        <TableColumn fx:id="columnDescriptionMaster" prefWidth="219.88970947265625" style="-fx-background-color: #99bfc9;" text="Description" />
+                     </columns>
+                  </TableView>
+                  <TextField fx:id="swIDField" alignment="CENTER" layoutX="8.0" layoutY="216.0" prefHeight="26.0" prefWidth="71.0" promptText="SW ID" />
+                  <TextField fx:id="swNameField" alignment="CENTER" layoutX="81.0" layoutY="216.0" prefHeight="26.0" prefWidth="100.0" promptText="Name" />
+                  <TextField fx:id="swLicenseKeyField" alignment="CENTER" layoutX="184.0" layoutY="216.0" prefHeight="26.0" prefWidth="143.0" promptText="License Key" />
+                  <TextField fx:id="swExpirationField" alignment="CENTER" layoutX="330.0" layoutY="216.0" prefHeight="26.0" prefWidth="95.0" promptText="MM/DD/YY" />
+                  <TextField fx:id="swVersionNoField" alignment="CENTER" layoutX="429.0" layoutY="216.0" prefHeight="26.0" prefWidth="103.0" promptText="Version No." />
+                  <TextField fx:id="swDescriptionField" alignment="CENTER" layoutX="535.0" layoutY="216.0" prefHeight="26.0" prefWidth="212.0" promptText="Description" />
+                  <Button fx:id="btnAddSW" layoutX="276.0" layoutY="250.0" mnemonicParsing="false" onAction="#addSWClicked" style="-fx-background-color: #99bfc9;" text="Add Software" textFill="#3e5b66" />
+                  <Button fx:id="btnRemoveSW" layoutX="371.0" layoutY="250.0" mnemonicParsing="false" onAction="#removeSWClicked" style="-fx-background-color: #99bfc9;" text="Remove Software" textFill="#3e5b66" />
+                  <Text fx:id="SWHWMasterPageHeader1" fill="#537481" layoutX="10.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SOFTWARE">
+                     <font>
+                        <Font name="Helvetica" size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="7.0" layoutY="360.0" prefHeight="300.0" prefWidth="760.0">
+               <children>
+                  <TableView fx:id="tableHardwareMaster" layoutX="10.0" layoutY="46.0" prefHeight="174.0" prefWidth="738.0" style="-fx-background-color: #e8f8ff;">
+                     <columns>
+                        <TableColumn fx:id="columnHWIDMaster" prefWidth="73.88973999023438" style="-fx-background-color: #8aacb5;" text="HW ID" />
+                        <TableColumn fx:id="columnTypeMaster" prefWidth="99.6102294921875" style="-fx-background-color: #99bfc9;" text="Type" />
+                        <TableColumn fx:id="columnBrandMaster" prefWidth="113.68206787109375" style="-fx-background-color: #8aacb5;" text="Brand" />
+                        <TableColumn fx:id="columnModelMaster" prefWidth="148.37689208984375" style="-fx-background-color: #99bfc9;" text="Model" />
+                        <TableColumn fx:id="columnSerialNoMaster" prefWidth="192.5513916015625" style="-fx-background-color: #8aacb5;" text="Serial No." />
+                        <TableColumn fx:id="columnDatePurchasedMaster" prefWidth="111.37054443359375" style="-fx-background-color: #99bfc9;" text="Date Purchased" />
+                     </columns>
+                  </TableView>
+                  <TextField fx:id="hwIDField" alignment="CENTER" layoutX="9.0" layoutY="227.0" prefHeight="26.0" prefWidth="66.0" promptText="HW ID" />
+                  <TextField fx:id="hwTypeField" alignment="CENTER" layoutX="77.0" layoutY="227.0" prefHeight="26.0" prefWidth="107.0" promptText="Type" />
+                  <TextField fx:id="hwBrandField" alignment="CENTER" layoutX="185.0" layoutY="227.0" prefHeight="26.0" prefWidth="117.0" promptText="Brand" />
+                  <TextField fx:id="hwModelField" alignment="CENTER" layoutX="304.0" layoutY="227.0" prefHeight="26.0" prefWidth="144.0" promptText="Model" />
+                  <TextField fx:id="hwSerialNoField" alignment="CENTER" layoutX="450.0" layoutY="227.0" prefHeight="26.0" prefWidth="193.0" promptText="Serial No." />
+                  <TextField fx:id="hwDatePurchasedField" alignment="CENTER" layoutX="645.0" layoutY="227.0" prefHeight="26.0" prefWidth="106.0" promptText="MM/DD/YY" />
+                  <Button fx:id="btnAddHW" layoutX="275.0" layoutY="261.0" mnemonicParsing="false" onAction="#addHWClicked" style="-fx-background-color: #99bfc9;" text="Add Hardware" textFill="#3e5b66" />
+                  <Button fx:id="btnRemoveHW" layoutX="375.0" layoutY="261.0" mnemonicParsing="false" onAction="#removeHWClicked" style="-fx-background-color: #99bfc9;" text="Remove Hardware" textFill="#3e5b66" />
+                  <Text fx:id="SWHWMasterPageHeader11" fill="#537481" layoutX="13.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HARDWARE">
+                     <font>
+                        <Font name="Helvetica" size="21.0" />
+                     </font>
+                  </Text>
+                  <Line endX="802.3826904296875" layoutX="-53.0" layoutY="29.0" startX="207.3084716796875" stroke="#537481" strokeLineCap="ROUND" strokeWidth="0.5" />
+               </children>
+            </Pane>
+            <Text fx:id="SWHWMasterPageHeader12" fill="#537481" layoutX="16.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill all fields to add, but at least the ID field to remove.">
+               <font>
+                  <Font name="Helvetica" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <VBox prefHeight="619.0" prefWidth="170.0" style="-fx-background-color: #99bfc9 #99bfc9;">
+         <children>
+            <Pane prefHeight="101.0" prefWidth="158.0">
+               <children>
+                  <ImageView fitHeight="47.0" fitWidth="73.0" layoutX="48.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="gemlogo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="btnAccounting" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="176.0" style="-fx-background-color: #8aacb5#8aacb5 #8aacb5#8aacb5; -fx-background-radius: 0;" text="Accounting" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnFundAccounting" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Fund Accounting" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMarketing" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Marketing" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLegal" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Legal" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnInformationTechnology" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Information Technology" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="btnMasterList" layoutY="647.0" mnemonicParsing="false" onAction="#openMasterList" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Resource Master List" textFill="#3e5b66">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnGenerateReport" layoutY="602.0" mnemonicParsing="false" onAction="#generateReport" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Generate Report" textFill="#3e5b66">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

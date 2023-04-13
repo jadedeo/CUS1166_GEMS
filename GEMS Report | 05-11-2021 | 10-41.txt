@@ -1,0 +1,469 @@
+GEMS Report
+Complete System
+
+Generated: 05-11-2021 | 10-41
+
+
+
+----- Accounting (DEP-001) -------------------------------------------
+
+
+1.   EMP-001   Jerry Jacobs, Analyst
+
+	    SOFTWARE:
+	    1.	SW-004	G Workspace
+			License Key:		TCQFP-2QKK4-CM87D-FQFX3-T487Y
+			Expiration:		2/28/24
+			Version No.:		47
+			Description:		Package including Gmail, Meet, Drive, Sheets, Slides, etc.
+
+	    2.	SW-003	Slack
+			License Key:		GGQTC-HBCG9-YFVYF-Y2BCR-X88BT
+			Expiration:		4/30/26
+			Version No.:		21.04.10
+			Description:		Team collaboration application
+
+
+	    HARDWARE:
+	    1.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18
+	    2.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+
+2.   EMP-002   Ken Gomes, Senior Analyst
+
+	    SOFTWARE:
+	    1.	SW-001	Adobe Acrobat
+			License Key:		QJD32-32VGQ-P8JGX-HB2BH-HGDRG
+			Expiration:		1/1/22
+			Version No.:		10.9
+			Description:		Acrobat, Acrobat Reader, Acrobat.com - view, create, manipulate, manage & print PDFs
+
+	    2.	SW-002	Microsoft Office 365
+			License Key:		JGGMH-WYQ3F-HYKW7-H93WM-D3BYJ
+			Expiration:		5/12/25
+			Version No.:		2019
+			Description:		Online versions of Microsoft Word, Powerpoint, Excel & OneNote
+
+
+	    HARDWARE:
+	    1.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+	    2.	HW-008	Logitech Wireless Mouse
+			Model:			910-002136
+			Serial No.:		GjsELyRp
+			Date Purchased:		4/30/19
+	    3.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18
+	    4.	HW-009	Aluratek Webcam
+			Model:			AWC03F
+			Serial No.:		SY3cWT4G
+			Date Purchased:		5/31/20
+
+3.   EMP-003   Pete Zemba, Manager
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+4.   EMP-019   Kathy Tignore, Analyst
+
+	    SOFTWARE:
+	    1.	SW-002	Microsoft Office 365
+			License Key:		JGGMH-WYQ3F-HYKW7-H93WM-D3BYJ
+			Expiration:		5/12/25
+			Version No.:		2019
+			Description:		Online versions of Microsoft Word, Powerpoint, Excel & OneNote
+
+	    2.	SW-005	Confluence
+			License Key:		PQJ2R-FCBQT-DVQK3-GCPYP-VYDRG 
+			Expiration:		7/31/23
+			Version No.:		5.7
+			Description:		Collaborative workspace from Atlassian
+
+	    3.	SW-008	DBArtisan
+			License Key:		D3C9K-FKXMT-73XV6-V92BK-6WBYW 
+			Expiration:		12/31/22
+			Version No.:		17.0.1
+			Description:		Database performance management application
+
+
+	    HARDWARE:
+	    1.	HW-005	Lenovo Laptop
+			Model:			Xgyrx97r
+			Serial No.:		Xgyrx97r
+			Date Purchased:		1/31/16
+	    2.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18
+	    3.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+
+5.   EMP-023   Mike Barrer, Analyst
+
+	    SOFTWARE:
+	    1.	SW-008	DBArtisan
+			License Key:		D3C9K-FKXMT-73XV6-V92BK-6WBYW 
+			Expiration:		12/31/22
+			Version No.:		17.0.1
+			Description:		Database performance management application
+
+	    2.	SW-006	Zoom
+			License Key:		WCQ7G-WX76B-68FCR-RM7WQ-R6VFG 
+			Expiration:		5/16/25
+			Version No.:		2021
+			Description:		Pro plan for video conferencing
+
+	    3.	SW-004	G Workspace
+			License Key:		TCQFP-2QKK4-CM87D-FQFX3-T487Y
+			Expiration:		2/28/24
+			Version No.:		47
+			Description:		Package including Gmail, Meet, Drive, Sheets, Slides, etc.
+
+
+	    HARDWARE:
+	    1.	HW-008	Logitech Wireless Mouse
+			Model:			910-002136
+			Serial No.:		GjsELyRp
+			Date Purchased:		4/30/19
+	    2.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18
+	    3.	HW-005	Lenovo Laptop
+			Model:			Xgyrx97r
+			Serial No.:		Xgyrx97r
+			Date Purchased:		1/31/16
+
+6.   EMP-024   Jane Doe, Admin
+
+	    SOFTWARE:
+	    1.	SW-009	Test
+			License Key:		Test
+			Expiration:		01/01/22
+			Version No.:		12345
+			Description:		TestTest
+
+	    2.	SW-006	Zoom
+			License Key:		WCQ7G-WX76B-68FCR-RM7WQ-R6VFG 
+			Expiration:		5/16/25
+			Version No.:		2021
+			Description:		Pro plan for video conferencing
+
+	    3.	SW-007	Seismic
+			License Key:		DK8XR-QGDCV-P7HFR-PRFFH-G9X4J
+			Expiration:		11/31/21
+			Version No.:		2016
+			Description:		Custom document creation software
+
+
+	    HARDWARE:
+	    1.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+	    2.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18
+	    3.	HW-008	Logitech Wireless Mouse
+			Model:			910-002136
+			Serial No.:		GjsELyRp
+			Date Purchased:		4/30/19
+
+----- Fund Accounting (DEP-002) -------------------------------------------
+
+
+1.   EMP-005   Michael Jackson, Senior Analyst
+
+	    SOFTWARE:
+	    1.	SW-003	Slack
+			License Key:		GGQTC-HBCG9-YFVYF-Y2BCR-X88BT
+			Expiration:		4/30/26
+			Version No.:		21.04.10
+			Description:		Team collaboration application
+
+	    2.	SW-001	Adobe Acrobat
+			License Key:		QJD32-32VGQ-P8JGX-HB2BH-HGDRG
+			Expiration:		1/1/22
+			Version No.:		10.9
+			Description:		Acrobat, Acrobat Reader, Acrobat.com - view, create, manipulate, manage & print PDFs
+
+	    3.	SW-004	G Workspace
+			License Key:		TCQFP-2QKK4-CM87D-FQFX3-T487Y
+			Expiration:		2/28/24
+			Version No.:		47
+			Description:		Package including Gmail, Meet, Drive, Sheets, Slides, etc.
+
+
+	    HARDWARE:
+	    1.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18
+	    2.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+	    3.	HW-007	Logitech Keyboard
+			Model:			920-002565
+			Serial No.:		d55uc4jj
+			Date Purchased:		11/31/18
+	    4.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+
+2.   EMP-006   Yonas Girma, Manager
+
+	    SOFTWARE:
+	    1.	SW-003	Slack
+			License Key:		GGQTC-HBCG9-YFVYF-Y2BCR-X88BT
+			Expiration:		4/30/26
+			Version No.:		21.04.10
+			Description:		Team collaboration application
+
+	    2.	SW-004	G Workspace
+			License Key:		TCQFP-2QKK4-CM87D-FQFX3-T487Y
+			Expiration:		2/28/24
+			Version No.:		47
+			Description:		Package including Gmail, Meet, Drive, Sheets, Slides, etc.
+
+
+	    HARDWARE:
+	    1.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+	    2.	HW-003	Logitech Webcam
+			Model:			960-001257
+			Serial No.:		PbmWkXyv
+			Date Purchased:		5/31/17
+
+3.   EMP-018   Jonathan Steinburg, Team Lead
+
+	    SOFTWARE:
+	    1.	SW-004	G Workspace
+			License Key:		TCQFP-2QKK4-CM87D-FQFX3-T487Y
+			Expiration:		2/28/24
+			Version No.:		47
+			Description:		Package including Gmail, Meet, Drive, Sheets, Slides, etc.
+
+	    2.	SW-002	Microsoft Office 365
+			License Key:		JGGMH-WYQ3F-HYKW7-H93WM-D3BYJ
+			Expiration:		5/12/25
+			Version No.:		2019
+			Description:		Online versions of Microsoft Word, Powerpoint, Excel & OneNote
+
+
+	    HARDWARE:
+	    1.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+
+4.   EMP-022   Sonia Pogon, Analyst
+
+	    SOFTWARE:
+	    1.	SW-003	Slack
+			License Key:		GGQTC-HBCG9-YFVYF-Y2BCR-X88BT
+			Expiration:		4/30/26
+			Version No.:		21.04.10
+			Description:		Team collaboration application
+
+	    2.	SW-004	G Workspace
+			License Key:		TCQFP-2QKK4-CM87D-FQFX3-T487Y
+			Expiration:		2/28/24
+			Version No.:		47
+			Description:		Package including Gmail, Meet, Drive, Sheets, Slides, etc.
+
+	    3.	SW-001	Adobe Acrobat
+			License Key:		QJD32-32VGQ-P8JGX-HB2BH-HGDRG
+			Expiration:		1/1/22
+			Version No.:		10.9
+			Description:		Acrobat, Acrobat Reader, Acrobat.com - view, create, manipulate, manage & print PDFs
+
+	    4.	SW-008	DBArtisan
+			License Key:		D3C9K-FKXMT-73XV6-V92BK-6WBYW 
+			Expiration:		12/31/22
+			Version No.:		17.0.1
+			Description:		Database performance management application
+
+
+	    HARDWARE:
+	    1.	HW-001	Apple Laptop
+			Model:			MGN63LL/A
+			Serial No.:		yAvQ7RAA
+			Date Purchased:		3/4/20
+	    2.	HW-007	Logitech Keyboard
+			Model:			920-002565
+			Serial No.:		d55uc4jj
+			Date Purchased:		11/31/18
+	    3.	HW-009	Aluratek Webcam
+			Model:			AWC03F
+			Serial No.:		SY3cWT4G
+			Date Purchased:		5/31/20
+	    4.	HW-008	Logitech Wireless Mouse
+			Model:			910-002136
+			Serial No.:		GjsELyRp
+			Date Purchased:		4/30/19
+
+----- Marketing (DEP-003) -------------------------------------------
+
+
+1.   EMP-007   Anita Rausch, Admin
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+2.   EMP-009   Shownna Bradley, Analyst
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+3.   EMP-010   Vincent Capozzi, Manager
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+4.   EMP-020   Terry Felds, Senior Analyst
+
+	    SOFTWARE:
+	    1.	SW-002	Microsoft Office 365
+			License Key:		JGGMH-WYQ3F-HYKW7-H93WM-D3BYJ
+			Expiration:		5/12/25
+			Version No.:		2019
+			Description:		Online versions of Microsoft Word, Powerpoint, Excel & OneNote
+
+	    2.	SW-003	Slack
+			License Key:		GGQTC-HBCG9-YFVYF-Y2BCR-X88BT
+			Expiration:		4/30/26
+			Version No.:		21.04.10
+			Description:		Team collaboration application
+
+	    3.	SW-004	G Workspace
+			License Key:		TCQFP-2QKK4-CM87D-FQFX3-T487Y
+			Expiration:		2/28/24
+			Version No.:		47
+			Description:		Package including Gmail, Meet, Drive, Sheets, Slides, etc.
+
+
+	    HARDWARE:
+	    1.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+	    2.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+	    3.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18
+	    4.	HW-008	Logitech Wireless Mouse
+			Model:			910-002136
+			Serial No.:		GjsELyRp
+			Date Purchased:		4/30/19
+	    5.	HW-009	Aluratek Webcam
+			Model:			AWC03F
+			Serial No.:		SY3cWT4G
+			Date Purchased:		5/31/20
+
+----- Legal (DEP-004) -------------------------------------------
+
+
+1.   EMP-011   Aicha Bach, Senior Analyst
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+2.   EMP-012   Donette Charleston, Team Lead
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+3.   EMP-013   Lub Spears, Analyst
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+4.   EMP-014   Peter Swenke, Admin
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+----- Information Technology (DEP-005) -------------------------------------------
+
+
+1.   EMP-015   David Yates, Analyst
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+2.   EMP-016   Lolita Hanoman, Programmer
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+3.   EMP-017   Mark Sattler, Programmer
+
+	    SOFTWARE:
+
+	    HARDWARE:
+
+4.   EMP-021   Catherine Hess, Analyst
+
+	    SOFTWARE:
+	    1.	SW-003	Slack
+			License Key:		GGQTC-HBCG9-YFVYF-Y2BCR-X88BT
+			Expiration:		4/30/26
+			Version No.:		21.04.10
+			Description:		Team collaboration application
+
+	    2.	SW-008	DBArtisan
+			License Key:		D3C9K-FKXMT-73XV6-V92BK-6WBYW 
+			Expiration:		12/31/22
+			Version No.:		17.0.1
+			Description:		Database performance management application
+
+	    3.	SW-006	Zoom
+			License Key:		WCQ7G-WX76B-68FCR-RM7WQ-R6VFG 
+			Expiration:		5/16/25
+			Version No.:		2021
+			Description:		Pro plan for video conferencing
+
+
+	    HARDWARE:
+	    1.	HW-002	HP Monitor
+			Model:			24F
+			Serial No.:		3KnG6GtUA
+			Date Purchased:		4/30/18
+	    2.	HW-001	Apple Laptop
+			Model:			MGN63LL/A
+			Serial No.:		yAvQ7RAA
+			Date Purchased:		3/4/20
+	    3.	HW-004	HP Keyboard
+			Model:			6YW76AA
+			Serial No.:		HrcEhHjS
+			Date Purchased:		7/31/18

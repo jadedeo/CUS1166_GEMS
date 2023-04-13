@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="generateReportsPane" prefHeight="710.0" prefWidth="990.0" style="-fx-background-color: #d7f1fc;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GenerateReportsController">
+   <children>
+      <VBox prefHeight="607.0" prefWidth="170.0" style="-fx-background-color: #99bfc9 #99bfc9;">
+         <children>
+            <Pane prefHeight="101.0" prefWidth="158.0">
+               <children>
+                  <ImageView fitHeight="47.0" fitWidth="73.0" layoutX="48.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                       
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="btnAccounting" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="172.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Accounting" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnFundAccounting" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Fund Accounting" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMarketing" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Marketing" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLegal" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Legal" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnInformationTechnology" mnemonicParsing="false" onAction="#openDepartmentWindow" prefHeight="47.0" prefWidth="169.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Information Technology" textFill="#3e5b66">
+               <font>
+                  <Font name="Helvetica" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="btnMasterList" layoutY="647.0" mnemonicParsing="false" onAction="#openMasterList" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #99bfc9; -fx-background-radius: 0;" text="Resource Master List" textFill="#3e5b66">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnGenerateReport" layoutY="602.0" mnemonicParsing="false" onAction="#generateReport" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #8aacb5#8aacb5; -fx-background-radius: 0;" text="Generate Report" textFill="#3e5b66">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Text fx:id="reportsPageHeader" fill="#537481" layoutX="197.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REPORTING">
+         <font>
+            <Font name="Helvetica" size="28.0" />
+         </font>
+      </Text>
+      <Line endX="634.3280639648438" endY="1.52587890625E-5" layoutX="314.0" layoutY="85.0" startX="-119.00643920898438" startY="7.62939453125E-6" stroke="#537481" strokeLineCap="ROUND" />
+      <Text fill="#537481" layoutX="247.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate complete report for all departments:">
+         <font>
+            <Font name="Helvetica" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnCompleteReport" layoutX="744.0" layoutY="159.0" mnemonicParsing="false" onAction="#completeReportClicked" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #99bfc9;" text="Complete Report" textFill="#3e5b66" />
+      <Text fill="#537481" layoutX="244.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate report for the selected department:" wrappingWidth="316.625">
+         <font>
+            <Font name="Helvetica" size="16.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="deptChoiceBox" layoutX="667.0" layoutY="270.0" prefHeight="26.0" prefWidth="225.0" style="-fx-background-color: #e8f8ff;" />
+      <Button fx:id="btnDepartmentReport" layoutX="741.0" layoutY="317.0" mnemonicParsing="false" onAction="#departmentReportClicked" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #99bfc9;" text="Department Report" textFill="#3e5b66" />
+      <ChoiceBox fx:id="hwChoiceBox" layoutX="660.0" layoutY="450.0" prefHeight="26.0" prefWidth="232.0" style="-fx-background-color: #e8f8ff;" />
+      <Button fx:id="btnHardwareReport" layoutX="742.0" layoutY="495.0" mnemonicParsing="false" onAction="#hardwareReportClicked" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #99bfc9;" text="Hardware Report" textFill="#3e5b66" />
+      <Text fill="#537481" layoutX="246.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate report for the selected piece of hardware:" wrappingWidth="373.5072021484375">
+         <font>
+            <Font name="Helvetica" size="16.0" />
+         </font>
+      </Text>
+      <Line endX="561.8078002929688" endY="1.52587890625E-5" layoutX="328.0" layoutY="234.0" startX="-81.91551208496094" startY="1.52587890625E-5" stroke="#537481" strokeLineCap="ROUND" strokeWidth="0.5" />
+      <Line endX="561.8078002929688" endY="1.52587890625E-5" layoutX="332.0" layoutY="402.0" startX="-81.91551208496094" startY="1.52587890625E-5" stroke="#537481" strokeLineCap="ROUND" strokeWidth="0.5" />
+   </children>
+</AnchorPane>
